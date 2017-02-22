@@ -10,3 +10,15 @@ public int raiz(int numero){
   
   return res;
 }
+
+public int PotenciaCubo(int numero){
+  double res;
+  res = Math.Pow(numero , 3);
+  return res;
+}
+
+public int Raizcubica(int numero){
+  double res;
+  res = Math.Pow(numero , 1/3);
+  return res;
+}
