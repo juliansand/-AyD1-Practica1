@@ -37,3 +37,8 @@ int division(int num1, int num2){
   int res = sum1 / sum2;
   return res;
 }
+
+int resta(int num1, int num2){
+  int res = sum1  sum2;
+  return res;
+}
