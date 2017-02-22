@@ -1,3 +1,4 @@
+
 public int Potencia(int numero){
   double res;
   res = Math.Pow(numero , 2);
@@ -34,7 +35,11 @@ int multiplicacion(int num1, int num2){
 }
 
 int division(int num1, int num2){
-  int res = sum1 / sum2;
+  if(num2!=0){
+    int res = sum1 / sum2;
+  }else{
+    //no es posible dividir dentro de cero
+  }
   return res;
 }
 
