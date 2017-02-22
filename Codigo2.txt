@@ -3,3 +3,10 @@ public int Potencia(int numero){
   res = Math.Pow(numero , 2);
   return res;
 }
+
+public int raiz(int numero){
+  double res;
+  res = Math.Sqrt(numero)
+  
+  return res;
+}
