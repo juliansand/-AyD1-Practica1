@@ -1,0 +1,5 @@
+public int Potencia(int numero){
+  double res;
+  res = Math.Pow(numero , 2);
+  return res;
+}
